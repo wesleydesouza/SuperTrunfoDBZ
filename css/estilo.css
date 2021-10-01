@@ -6,7 +6,7 @@ body {
     background-size:auto;
     background-position: center top;
     background-repeat: no-repeat;
-    
+    padding-bottom: 20vh;
 }
 
 
@@ -78,13 +78,15 @@ h2 {
 }
 
 .resultado-final {
+    
     color: white;
     font-size: 2rem;
     text-transform: uppercase;
     font-weigth: bolder;
-    padding: 1rem;
+    padding: 1rem 10rem;
+    
     border: 2px solid black;
-    background-image: linear-gradient(45deg, rgb(223, 101, 2), rgb(214, 147, 84));
+    background-image: linear-gradient(45deg, rgb(223, 101, 2), rgb(204, 147, 100));
 }
 
 .--spacing {
