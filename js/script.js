@@ -164,7 +164,7 @@ function exibirCartaJogador(){
 
 
     for(let atributo in cartaJogador.atributos){
-        opcoesTexto += "<input type='radio' name='atributo' value= '" + atributo + "' checked>"+ atributo + " " + cartaJogador.atributos[atributo] + "<br>";
+        opcoesTexto += "<input type='radio' name='atributo' value= '" + atributo + "' checked='checked'>"+ atributo + " " + cartaJogador.atributos[atributo] + "<br>";
     };
     let nome = `<p class="carta-subtitle">${cartaJogador.nome}</p>`
 
